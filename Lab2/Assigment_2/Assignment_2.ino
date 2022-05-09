@@ -21,7 +21,7 @@ bool reset_flag = false; // The flag to print the reset in the serial monitor
 
 void setup()
 {
-    Serial.begin(9600);                       // set the baud rate o 9600
+    Serial.begin(9600);                       // set the baud rate to 9600 Hz
     pinMode(start_stop_button, INPUT_PULLUP); // Define the start/stop button as pullup
     pinMode(reset_button, INPUT_PULLUP);      // Define the start/stop button as pullup
     pinMode(led, OUTPUT);
